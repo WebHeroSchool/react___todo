@@ -1,0 +1,72 @@
+body {
+  margin: 20px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  flex-direction: column;
+}
+
+.menu {
+	display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+	width: 95%;
+  height: 100%;
+	border: 1px solid grey;
+}
+
+.link {
+	text-decoration: none;
+	margin: 2%;
+	font-size: 1.5em;
+	padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.link:hover {
+  cursor: pointer;
+  background: lightgrey;
+  border-radius: 15px;
+}
+
+.link_active {
+  background: #f7d1ff;
+  border-radius: 15px;
+}
+
+.link_active:hover {
+  background: #f7d1ff;
+}
+
+.box_logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wbs {
+  margin: 20px;
+  display: block;
+  background: url('whs_logo.png') 0 0 /cover no-repeat;
+  width: 164px;
+  height: 51px;
+}

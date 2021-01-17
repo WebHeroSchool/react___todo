@@ -1,0 +1,105 @@
+.wrap {
+	display: block;
+    margin-top: 3%;
+}
+
+.main_info {
+    display: block;
+    font-size: 16px;
+}
+
+.mail {
+    padding-left: 25px;
+    position: relative;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.mail:before {
+    content: '';
+    background: url('email.png') 0 0/cover no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+}
+.mail:hover {
+    color: dodgerblue;
+}
+.telegram {
+	display: block;
+	margin-top: 3%;
+    padding-left: 25px;
+    position: relative;
+    text-decoration: none;
+    color: dimgray;
+}
+.telegram:before {
+    content: '';
+    background: url('telegram.png') 0 0/cover no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+}
+.telegram:hover {
+    color: dodgerblue;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.github {
+    display: inline-block;
+    background: url('github.png') 0 0/cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.github:hover {
+    transform: translate3d(2px,-1px,1px);
+	filter: drop-shadow(4px 10px 10px rgba(0, 0, 0, 0.8));
+	cursor: pointer;
+	animation-delay: 0.5s;
+	transform-style: preserve-3d;
+}
+
+.vk {
+    display: inline-block;
+    background: url('vk.png') 0 0/cover no-repeat;
+    margin: 0 12px 0 12px;
+    width: 30px;
+    height: 30px;
+}
+.vk:hover {
+    transform: translate3d(2px,-1px,1px);
+	filter: drop-shadow(4px 10px 10px rgba(0, 0, 0, 0.8));
+	cursor: pointer;
+	animation-delay: 0.5s;
+	transform-style: preserve-3d;
+}
+
+
+.inst {
+    display: inline-block;
+    background: url('instagram.png') 0 0/cover no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.inst:hover {
+    transform: translate3d(2px,-1px,1px);
+	filter: drop-shadow(4px 10px 10px rgba(0, 0, 0, 0.8));
+	cursor: pointer;
+	animation-delay: 0.5s;
+	transform-style: preserve-3d;
+}
+
+@media (max-width: 360px) {
+	.wrap {
+		margin: 20% 20% 0 -160px;
+	}
+}

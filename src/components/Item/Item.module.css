@@ -1,0 +1,7 @@
+.task {
+	font-family: sans-serif;
+}
+
+.done {
+	text-decoration: line-through;
+}

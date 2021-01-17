@@ -1,0 +1,16 @@
+.wrap {
+	box-sizing: border-box;
+	height: 100%;
+	font-style: italic;
+	font-size: 1.8em;
+}
+
+.title {
+	text-align: center;
+	font-family: serif;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 4% 0;
+	background: url('bg.jpg') 0 0/100% 100vh no-repeat;
+}

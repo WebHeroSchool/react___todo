@@ -1,0 +1,104 @@
+
+.box {
+	margin: auto;
+}
+
+.wrap {
+	margin: 0;
+	background: url('bg.jpg') 0 0/100% 100% no-repeat;
+}
+
+
+.user {
+    display: flex;
+    flex-direction: row;
+    padding: 4% 0;
+    margin: 0 4%;
+    border-bottom: 3px double #ccc;
+}
+
+.ava {
+    width: 200px;
+	height: 200px;
+	border: 2px solid grey;
+}
+
+.info_user {
+    display: block;
+    flex-grow: 1;
+    margin-left: 4%;
+}
+
+.name {
+	line-height: 10px;
+	margin-bottom: 1%;
+}
+
+.bio {
+	line-height: 25px;
+}
+
+.portfolio {
+	padding-left: 4%;
+}
+
+.title {
+	text-align: center;
+}
+
+.site {
+    padding-left: 35px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.site:before {
+    content: '';
+    background: url('global.png') 0 0/cover no-repeat;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+}
+.site:hover {
+    color: dodgerblue;
+}
+.game {
+	display: block;
+	margin-top: 3%;
+    padding-left: 35px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.game:before {
+    content: '';
+    background: url('card-game.png') 0 0/cover no-repeat;
+    position: absolute;
+    top: -8px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+}
+.game:hover {
+    color: dodgerblue;
+}
+
+.error {
+	color: red;
+	text-align: center;
+}
+
+@media (max-width: 510px) {
+	.name {
+		font-size: 28px;
+		line-height: 25px;
+	}
+
+	.ava {
+	    width: 150px;
+		height: 150px;
+	}
+}
